@@ -1,6 +1,13 @@
+/* Hero */
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Hero */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Serif+Lao:wght@300&display=swap');
+
+
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: #e7e7e7;
   color: #fff;
 }
 
@@ -180,8 +187,8 @@ h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid #37332a;
+  background: rgb(230, 94, 15);
+  border-bottom: 1px solid rgb(230, 94, 15);
 }
 
 #header .logo {
@@ -867,7 +874,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background: #ffffff;
 }
 
 .why-us .box span {
@@ -882,7 +889,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: #aaa;
 }
 
 .why-us .box p {
@@ -893,7 +900,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cda45e;
+  /* background: #cda45e; */
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -901,7 +908,34 @@ section {
 .why-us .box:hover span,
 .why-us .box:hover h4,
 .why-us .box:hover p {
-  color: #fff;
+  color: #aaa;
+}
+
+#why-us .btn-menu,
+#why-us .btn-book {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    /* color: white; */
+    color: #aaa;
+    border: 2px solid #cda45e;
+}
+
+#why-us .btn-menu:hover,
+#why-us .btn-book:hover {
+    background: #cda45e;
+    color: #fff; 
+    border: 2px solid #cda45e;
+}
+
+#why-us .btn-book {
+    margin-right: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -1544,9 +1578,9 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
+  background: #ffffff;
   border-color: #625b4b;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .contact .php-email-form input::-moz-placeholder,
@@ -1609,14 +1643,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: rgba(229,114,47);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #0c0b09;
+  background: #e7e7e7;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
@@ -1713,18 +1747,18 @@ section {
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: #28251f;
+  background: #ffffff;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
-  border: 1px solid #454035;
+  border: 1px solid #ffffff;
 }
 
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
-  background: #28251f;
+  background: #ffffff;
   color: white;
 }
 
