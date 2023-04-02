@@ -675,7 +675,7 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #e7e7e7;
 }
 
 .section-title {
@@ -957,7 +957,7 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  color: #000000;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -978,9 +978,8 @@ section {
 }
 
 .menu .menu-img {
-  width: 70px;
-  border-radius: 50%;
-  float: left;
+  width: 550px;
+  border-radius: 10%;
   border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
