@@ -679,7 +679,8 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
@@ -1255,9 +1256,9 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
+  background: #ffffff;    
   border-color: #625b4b;
-  color: white;
+  color: rgb(5, 5, 5);
 }
 
 .book-a-table .php-email-form input::-moz-placeholder,
@@ -1792,3 +1793,11 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+.mt-11 {
+  margin-top: 6rem!important;
+}
+

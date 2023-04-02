@@ -53,24 +53,29 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">KUY's Grill & Restaurant</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       <a class="navbar-brand" href="./index.html">
         <img src="assets/img/Kuys_Logo_Updated.png" alt="" width="70" height="53" class="d-inline-block align-text-top">
       </a> 
+
+
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="./about.html">About</a></li>
           <li><a class="nav-link scrollto" href="./menu.html">Menu</a></li>
           <li><a class="nav-link scrollto" href="./entertainment.html">Entertainment</a></li>
-          <li><a class="nav-link scrollto active" href="./contact.html">Contact</a></li>
+          <li><a class="nav-link scrollto" href="./contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+      </nav><!-- .navbar -->
       <a href="./bookATable.html" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
 
     </div>
-  </header>
-  <!-- End Header -->
+  </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -98,101 +103,74 @@
     <!-- End Menu Section -->
 
     <!-- ======= Specials Section ======= -->
+    <!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
     <!-- End Events Section -->
 
     <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Reservation</h2>
+          <p>Book a Table</p>
+        </div>
+
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Book a Table</button></div>
+        </form>
+
+      </div>
+    </section>
     <!-- End Book A Table Section -->
 
     <!-- ======= Testimonials Section ======= -->
-
     <!-- End Testimonials Section -->
 
     <!-- ======= Gallery Section ======= -->
     <!-- End Gallery Section -->
 
     <!-- ======= Chefs Section ======= -->
+    <!-- End Chefs Section -->
+
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-      <div class="section-title mt-11">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div>
-      </div>
-
-      <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d58000.15405666458!2d46.66857003285904!3d24.692195738050376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3e2f0322e5244481%3A0xd24202bdb41d21c6!2skuy&#39;s%20restaurant%20saudi!3m2!1d24.692199799999997!2d46.7035896!5e0!3m2!1sen!2sph!4v1675844519946!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>6966, Abu Bakr Alrazi St, 6966, As Sulimaniyah,2467, Riyadh 12231, Saudi Arabia</p>
-              </div>
-
-              <div class="open-hours">
-                <i class="bi bi-clock"></i>
-                <h4>Open Hours:</h4>
-                <p>
-                  Monday-Saturday:<br>
-                  11:00AM - 2:00AM
-                </p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@kuysksa.xyz</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+058 240 6854</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
